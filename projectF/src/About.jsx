@@ -1,11 +1,11 @@
 import Layout from "./Layout";
 
-const Home = () => {
+const About = () => {
     return (
         <Layout>
-            <h1>This is home page</h1>
+            <h1>this is About Us</h1>
         </Layout>
     )
 }
 
-export default Home
+export default About

@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Home from './Home';
+import About from './About';
+
 
 import {
   createBrowserRouter,
@@ -8,24 +10,23 @@ import {
 } from "react-router-dom";
 
 
+
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Home />
-  }
-  // {
-  //   path: '/Login',
-  //   element: <Login />
-  // },
-  // {
-  //   path: '/Register',
-  //   element: <Register />
-  // }
+  },
+  {
+    path: '/About',
+    element: <About />
+  },
+
 ])
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <UserContext>
+  <div>
     <RouterProvider router={router} />
-  </UserContext>
+  </div>
 )
