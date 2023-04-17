@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log-In</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="login.css" />
+
+</head>
+<body>
+    
+    <header>
+        <!-- Navbar section -->
+
+        <!--Desktop-->
+        <nav class="navbar-desktop">
+            <div class="left-navbar-dt">
+                <a href="">
+                    <div>
+                        <img src="/picture/logo.svg" alt="YUNWHANG-logo"  />
+                    </div>
+                    <p><b>YUNWHANG</b></p>
+                </a>
+            </div>
+            <ul class="right-navbar-dt">
+                <li><a href=""><b>Home</b></a></li>
+                <li><a href=""><b>About Us</b></a></li>
+                <li><a href=""><b>Contact</b></a></li>
+                <li><a href=""><button type="button" id="navbar-login-btn"><b>Log In</b></button></a></li>
+            </ul>
+        </nav>
+
+        <!--Mobile-->
+        <nav class="navbar-mobile">
+        </nav>
+
+    </header>
+
+    <main>
+        <!--Log In Page-->
+        <section class="login-form">
+            <!-- left -->
+            <article class="left-login">
+                <img src="/picture/Road cycling-amico 1.svg" alt="road-cycling" />
+            </article>
+            <!-- right -->
+            <article class="right-login">
+                <div class="right-login-box">
+                    <h1>LOG IN</h1>
+                    <div class="logo-login">
+                        <img src="/picture/logo.svg" alt="YUNWHANG-logo"  />
+                    </div>
+                    <!-- Input from user -->
+                    <div class="input-login">
+                        <input id="useremail" type="email" placeholder="email">
+                    </div>
+                    <div class="input-login">
+                        <input id="userpassword" type="password" placeholder="password">
+                    </div>
+                    <p id="forgot-password"><a href="">Forgot Password</a></p>
+                    <!-- button for user click -->
+                    <!-- <p><a href="">Don't have account yet, Register now!</a></p> -->
+                    <button id="login-btn" type="button">Log In</button>
+                    <button id="back-btn" type="button">Back</button>
+                    <div class="or-text">
+                        <!-- <hr> -->
+                        <p>OR</p>
+                        <!-- <hr> -->
+                    </div>
+                    <button id="register-btn" type="button">Register</button>
+                </div>
+            </article>
+        </section>
+
+    </main>
+
+</body>
+</html>
