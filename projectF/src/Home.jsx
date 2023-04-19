@@ -6,8 +6,8 @@ const Home = () => {
         <Layout>
             <div>
                 <h1>YUNWHANG</h1>
-                {/* <button><a href={'/Login'}>Get Start</a></button> */}
-                {/* <button><a href={'/Register'}>Register</a></button> */}
+                <a href={'/Login'}><button>Get Start</button></a>
+                <a href={'/Register'}><button>Register</button></a>
             </div>
         </Layout>
     )

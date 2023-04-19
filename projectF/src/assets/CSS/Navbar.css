@@ -4,28 +4,15 @@
     /* box-sizing: border-box; */
 }
 
-/* img{
-    width: 100%;
-} */
 
 .navbar{
-    /* height: 65px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 16px;
-    position: fixed;
     background-color: white;
     width: 100%;
-    /* border-bottom: 2px solid lightgrey; */
-    position: fixed;
 }
-
-/* .navbar>div{
-    width: 50px;
-} */
-
-
 
 /* left-navbar */
 .left-navbar a {

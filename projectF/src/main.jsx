@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import Home from './Home';
 import About from './About';
 import Login from './Login';
+import Register from './Register';
+import Dashboard from './Dashboard';
+import AddActivity from './AddActivity';
 
 
 import {
@@ -25,7 +28,19 @@ const router = createBrowserRouter([
   {
     path: '/Login',
     element: <Login />
-  }
+  },
+  {
+    path: '/Register',
+    element: <Register />
+  },
+  {
+    path: '/Dashboard',
+    element: <Dashboard />
+  },
+  {
+    path: '/AddActivity',
+    element: <AddActivity />
+  },
 
 ])
 
