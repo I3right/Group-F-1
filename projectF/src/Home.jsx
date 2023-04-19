@@ -1,9 +1,14 @@
+import React from 'react'
 import Layout from "./Layout";
 
 const Home = () => {
     return (
         <Layout>
-            <h1>This is home page</h1>
+            <div>
+                <h1>YUNWHANG</h1>
+                {/* <button><a href={'/Login'}>Get Start</a></button> */}
+                {/* <button><a href={'/Register'}>Register</a></button> */}
+            </div>
         </Layout>
     )
 }
