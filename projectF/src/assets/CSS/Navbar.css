@@ -1,0 +1,17 @@
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: antiquewhite;
+}
+
+.navbar>div{
+    width: 50px;
+}
